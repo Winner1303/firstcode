@@ -1,0 +1,222 @@
+.conteneur{
+    background-color: orange;
+}
+.box1{
+    display:grid;
+    height: 70px;
+    background-color: orange;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box2{
+    display:grid;
+    background-color: black;
+    color: white;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+/* POUR RASSEMBLER LES TROIS*/
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+/*POUR LE PREMIER ELECTRICAL SERVICES*/
+.one{
+    margin-right: 43px;
+    display:grid;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(233, 154, 8);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.uuM{
+    display: grid;
+    height: 230px;
+    background-color: rgb(20, 18, 18);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.un{
+    color: white;
+    text-align: left ;
+}
+.uno{
+    color: rgb(224, 222, 222);
+    text-align: left;
+}
+.MD{
+    margin-left: 120px;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/*POUR LE DEUXIEME PLUMBING SERVICES*/
+.two{
+    margin-right: 43px;
+    display:grid;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(233, 154, 8);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.uuM1{
+    display: grid;
+    height: 230px;
+    background-color: rgb(20, 18, 18);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.un1{
+    color: white;
+    text-align: left ;
+}
+.uno1{
+    color: rgb(224, 222, 222);
+    text-align: left;
+}
+.MD1{
+    margin-left: 120px;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*POUR LE TROISIEM WELDING SERVICES*/
+.three{
+    margin-bottom: 30px;
+    display:grid;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(233, 154, 8);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.uuM2{
+    display: grid;
+    height: 230px;
+    background-color: rgb(20, 18, 18);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.un2{
+    color: white;
+    text-align: left ;
+}
+.uno2{
+    color: rgb(224, 222, 222);
+    text-align: left;
+}
+.MD2{
+    margin-left: 120px;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* apres les grids du document*/
+.premierbas{
+    margin-bottom: 50px;
+    display: grid;
+    width: 1000px;
+    height: 500px;
+    color: orange;
+    background-color: white;
+}
+.testimonials{
+    display: grid;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.pre{
+    color: black;
+    margin-bottom: 50px;
+}
+.enbas{
+    display: flex;
+    margin-right: 50px;
+}
+.images{
+    margin-bottom: 20px;
+}
+.end{
+    text-align: center;
+    display: flex;
+    height: 150px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.white{
+    
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 10px;
+    color: white;
+}
+.orange{
+    text-align: center;
+    margin-right: 10px;
+    color: orange;
+}
+.white2{
+    text-align: center;
+    margin-right: 10px;
+    color: white;
+}
+.facebook{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
